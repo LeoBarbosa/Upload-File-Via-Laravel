@@ -15,7 +15,7 @@
                 <div class="col-md-4">
                     <label>{{$d['title']}}</label>
                     <p>{{$d['description']}}</p>
-                    <audio src="audios/{{$d['file']}}"  controls autoplay loop></audio>
+                    <audio src="/audio/{{$d['file']}}"  controls></audio>
                 </div>
             @endforeach
         </div>
