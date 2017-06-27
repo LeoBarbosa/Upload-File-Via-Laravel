@@ -1,0 +1,64 @@
+## TESTS
+
+Event
+	Admin =>
+		model => 100%
+		controller => 75.83%
+	
+	Catalog => 
+		model => 100%
+		controller => 86.01%
+
+Product (override)
+	Admin =>
+		model => 100%
+		controller => 76.81%
+	
+	Catalog => 
+		model => 96.89%
+
+Pedido
+	Catalog =>		
+		model => 93.41%
+
+Model Sales (relatório) => 100%
+
+Relatórios Admin =>
+	pos (pdv) => 
+		controller => 97.75%
+
+	report (completo) => 
+		controller => 100%
+
+	sale (vendas) => 
+		controller => 98.30%
+
+	transaction (financeiro) =>
+		controller => 78.77%
+
+	sale_order (pedidos) =>
+		controller => 100%
+
+Relatórios POS => 
+	report (completo) => 
+		controller => 100%
+
+	sale (vendas) => 
+		controller => 99.13%
+
+	transaction (financeiro) =>
+		controller => 76.11%
+
+Relatórios Produtor => 
+	sale (vendas) => 
+		controller => 92.62%
+
+	pos => 
+		controller => 92.72%
+
+	transaction (financeiro) => 
+		controller => 77.39
+
+	report (completo) =>
+		controller => 100%
+
