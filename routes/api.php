@@ -26,5 +26,7 @@ Route::group(['middleware' => 'jwt.auth'], function(){
         Route::post('/upload', 'AudioController@store');
         Route::get('/{id}', 'AudioController@show');
     });
+
+    Route::post('gas_station', 'GasStationController@store');
 });
 

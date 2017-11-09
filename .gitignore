@@ -1,0 +1,25 @@
+node_modules/
+vendor/
+.idea/
+.vscode
+.env
+_ide_helper.php
+composer.lock
+yarn.lock
+/sonar-project.properties
+.sonar/
+*.sublime*
+**.DS_Store
+/public/hot
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+public/front/css/
+public/front/js/
+public/back/css/
+public/back/js/
+public/common/js/
+public/mix-manifest.json
+public/build/

@@ -26,6 +26,10 @@ Route::group(['middleware' => 'auth'], function() {
         Route::post('/upload', 'AudioController@store');
         Route::get('/{id}', 'AudioController@show');
     });
+
+    Route::get('/register_gas_station', 'GasStationController@index');
+    Route::post('/register_gas_station', 'GasStationController@store');
+
 });
 
 

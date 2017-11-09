@@ -1,0 +1,13 @@
+
+																		Baixo (5%)		maior que 40				30 min				maior que R$500		menor que 60	maior que 100
+																		Regular (10%)	maior que 55				45 min				maior que R$1000	menor que 45	maior que 200
+																		Bom (15%)		maior que 70				60 min 				maior que R$1500	menor que 30	maior que 300
+																		Ótimo (20%)		maior que 90				80 min				maior que R$3000	menor que 20	maior que 400
+
+
+																		-- NOVA -- 
+
+																		Baixo (5%)		20							20					500					50				180
+																		Regular (10%)	35							30					1000				35				240
+																		Bom (15%)		50							45					1500				25				300
+																		Ótimo (20%)		65							60					3000				15				360
